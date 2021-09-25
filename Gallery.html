@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .menu {
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.3);
+            justify-content: space-between;
+            color: white;
+            padding: 40px 100px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            float: left;
+            display: block;
+        }
+
+        @media all and (max-width:991px) {
+            .menu {
+                display: block;
+                overflow: hidden;
+            }
+
+            .menu a {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        .img1 {
+            background-image: url(https://www.wallpapertip.com/wmimgs/2-27681_minecraft-wallpaper-4k-pc.jpg);
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        .images {
+            width: 100%;
+        }
+        .column{
+            border:2px solid black;
+            height:400px;
+            width:33.3%;
+            float:left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            filter: brightness(20px);
+          color: transparent;
+           font-size: 25px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          transition: all 2s;
+
+        }
+        h1{
+            text-align: center;
+            padding:40px;
+
+        }
+        .i1{
+            background-image: url(https://wallpapercave.com/wp/gEPOrzw.jpg);
+
+        }
+        .i2{
+            background-image: url(https://qph.fs.quoracdn.net/main-qimg-35566c913ce6eb4244efbbccfa4f8e8e);
+        }
+        .i3{
+            background-image: url(https://coolthemestores.com/wp-content/uploads/2020/11/minecraft-features.jpg);
+        }
+        .i4{
+            background-image: url(https://www.teahub.io/photos/full/289-2891092_hd-wallpapers-of-minecraft-x-full-hd-pic.jpg);
+        }
+        .i5{
+            background-image: url(https://data.1freewallpapers.com/download/minecraft-mountains-1400x1050.jpg);
+        }
+        .i6{
+            background-image: url(https://wallpapercave.com/wp/gEPOrzw.jpg);
+        }
+        .i7{
+            background-image: url(https://images.nvidia.com/aem-dam/Solutions/geforce/news/minecraft-rtx-texturing-guide/hd-texture-pack-kb.png);
+        }
+        .i8{
+            background-image: url(https://images6.alphacoders.com/108/thumb-350-1082090.jpg);
+        }
+        .i9{
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/226/682/452/minecraft-waterfall-video-games-wallpaper-preview.jpg);
+        }
+        .column:hover{
+            background-color: #FADC6E;
+            background-image: none;
+            color: black;
+        }
+      
+        @media all and (max-width:990px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        @media all and (max-width:600px) {
+            .column {
+                width: 100%;
+
+            }
+        }
+        .sec2{
+            background-color:rgb(60,82,9) ;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header class="menu">
+        <h2 class="logo">MINECRAFT</h2>
+        <i class="far fa-gem"></i>
+        <a href="Minecraft .html">Home</a>
+        <a href="battle.html">Battles</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+    </header>
+    <div class="img1">
+
+    </div>
+    <div class="sec2">
+        <h1>Welcome to Image Gallery</h1>
+        <div class="row">
+            <div class="column i1">Steve</div>
+            <div class="column i2">Cute Pandas</div>
+            <div class="column i3">Minecraft Realms</div>
+            <div class="column i4">Jungle Biome</div>
+            <div class="column i5">Oak Forest</div>
+            <div class="column i6">Steve</div>
+            <div class="column i7">RTX</div>
+            <div class="column i8">Enderguardian</div>
+            <div class="column i9">Sunrise</div>
+        </div>
+    </div>
+    <div class="sec3">
+        <h1>About Us</h1>
+        <p></p>
+    </div>
+        
+
+
+</body>
+
+</html>
